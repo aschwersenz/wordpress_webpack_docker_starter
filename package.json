@@ -1,0 +1,39 @@
+{
+  "name": "wordpress_docker_starter",
+  "version": "0.0.1",
+  "description": "A Wordpress + Docker starter kit to develop themes",
+  "scripts": {
+    "build": "webpack"
+  },
+  "private": true,
+  "author": "Andreas Schwersenz",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "babel-loader": "^8.0.5",
+    "browser-sync": "^2.26.3",
+    "browser-sync-webpack-plugin": "^2.2.2",
+    "css-loader": "^2.1.1",
+    "file-loader": "^4.2.0",
+    "foundation-sites": "^6.5.3",
+    "mini-css-extract-plugin": "^0.6.0",
+    "node-sass": "^4.11.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.1",
+    "postcss-import": "^12.0.1",
+    "postcss-loader": "^3.0.0",
+    "postcss-preset-env": "^6.6.0",
+    "sass-loader": "^7.1.0",
+    "terser-webpack-plugin": "^1.2.3",
+    "webpack": "^4.30.0",
+    "webpack-cli": "^3.3.0"
+  },
+  "browserslist": [
+    "last 2 version",
+    "> 1%",
+    "ie >= 9",
+    "not dead",
+    "android >= 4.4",
+    "ios >= 7"
+  ]
+}

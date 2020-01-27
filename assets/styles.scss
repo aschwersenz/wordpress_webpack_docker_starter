@@ -1,0 +1,15 @@
+// Load custom global styles
+@import 'custom';
+
+// Set up foundation
+@import 'foundationSettings';
+@import '~foundation-sites/scss/foundation';
+
+// Only some global styles and the xy grid is imported from foundation by
+// default, see https://get.foundation/sites/docs/sass.html#the-settings-file
+// for a complete list of possible imports
+@include foundation-global-styles;
+@include foundation-xy-grid-classes;
+
+// Your custom styles should go in the /styles folder
+@import 'styles/example';
