@@ -1,5 +1,5 @@
 {
-  "name": "wordpress_docker_starter",
+  "name": "wordpress_webpack_docker_starter",
   "version": "0.0.1",
   "description": "A Wordpress + Docker starter kit to develop themes",
   "scripts": {

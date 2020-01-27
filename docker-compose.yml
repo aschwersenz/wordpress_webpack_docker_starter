@@ -14,7 +14,7 @@ services:
       - db
     image: wordpress:5-apache
     volumes:
-      - './theme:/var/www/html/wp-content/themes/generic'
+      - './theme:/var/www/html/wp-content/themes/name_me'
       - './wp-content/plugins:/var/www/html/wp-content/plugins'
       - './.htaccess:/var/www/html/.htaccess'
     ports:
