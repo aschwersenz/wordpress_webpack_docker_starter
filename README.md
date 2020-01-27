@@ -10,10 +10,8 @@ This starter kit should allow you to start the development of a custom theme for
 ## Setup
 1. `npm install`
 2. `docker-compose up`
-3. `npm run-script build`
-
-## Accounts
-The Wordpress account is *admin / admin*.
+3. On the first start, open http://localhost:8080 to set up Wordpress.
+4. `npm run-script build`
 
 ## Folders
 - `assets` Contains the SCSS/JS files for development.
