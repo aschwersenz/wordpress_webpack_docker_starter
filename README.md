@@ -21,7 +21,7 @@ The Wordpress account is *admin / admin*.
 - `wp-content/plugins` The plugin folder of Wordpress, here plugins can also be manually uploaded.
 
 ## Docker volumes
-- `/theme` -> `/var/www/html/wp-content/themes/name_me`
+- `/theme` -> `/var/www/html/wp-content/themes/custom_theme`
 - `/wp-content/plugins` -> `/var/www/html/wp-content/plugins`
 - `.htaccess` -> `/var/www/html/.htaccess`
 
