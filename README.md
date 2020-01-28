@@ -1,7 +1,7 @@
 # Wordpress + Webpack + Docker Starter Kit
 
 ## General
-This starter kit should allow you to start the development of a custom theme for Wordpress 5.x fairly quick and easy using Webpack and Docker. Development is happening with the SCSS/JS files in the `/assets` folder and the PHP files in the `/theme` folder. The compiled SCSS/JS assets are then copied to the `/theme/build` folder and combined with the PHP files. The `/theme` folder contains your theme and is mounted to the Wordpress Docker container. Foundation is used as the front-end framework (https://foundation.zurb.com/).
+This starter kit should allow you to start the development of a custom theme for Wordpress 5.x fairly quick and easy using Webpack and Docker. Development is happening with the SCSS/JS files in the `/assets` folder and the PHP files in the `/theme` folder. The compiled SCSS/JS assets are then copied to the `/theme/build` folder and combined with the PHP files. The `/theme` folder contains your theme and is linked to the Wordpress running inside the Docker container. Foundation is used as the front-end framework (https://foundation.zurb.com/).
 
 ## Requirements
 - node / npm - https://nodejs.org/
