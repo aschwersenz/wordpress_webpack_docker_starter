@@ -8,6 +8,7 @@ This starter kit should allow you to start the development of a custom theme for
 - docker / docker-compose - https://www.docker.com/
 
 ## Setup
+Inside the folder run the following commands:
 1. `npm install`
 2. `docker-compose up`
 3. On the first start, open http://localhost:8080 to set up Wordpress.
