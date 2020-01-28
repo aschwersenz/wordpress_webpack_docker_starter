@@ -24,4 +24,4 @@ This starter kit should allow you to start the development of a custom theme for
 - `.htaccess` -> `/var/www/html/.htaccess`
 
 ## Going live
-Just upload the `/theme` folder and potentially also the `/wp-content` folder to upload the plugins.
+Just upload the `/theme` folder and - if necessary - also the `/wp-content` folder to upload the plugins and the `.htaccess` file.
